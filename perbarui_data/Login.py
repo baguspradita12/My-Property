@@ -3,7 +3,7 @@ def login_akun() :
     import csv
 
     akun =[]
-    with open('My-Property\Akun.csv') as csv_file :
+    with open('My-Property\perbarui_data\Akun.csv') as csv_file :
         csv_reader = csv.reader(csv_file, delimiter=';')
         for i in csv_reader:
             akun.append(i)
