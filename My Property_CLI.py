@@ -12,6 +12,7 @@ Pilihan menu :
 [5] Keluar 
 \n''')
 
+import Login as L
 menu = int(input('Masukkan pilihan Menu = '))
 
 if menu == 1 :
@@ -25,6 +26,7 @@ elif menu == 3 :
     print('Pembelian rumah')
 elif menu == 4 :
     #Program Perbarui Data 
+    login = L.login_akun()
     print('Perbarui Harga') 
 else :
     #Program Selesai
